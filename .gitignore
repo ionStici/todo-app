@@ -4,3 +4,5 @@ style.css.map
 .prettierignore
 .prettierrc
 package-lock.json
+copy.js
+copy.scss
