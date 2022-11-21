@@ -74,5 +74,55 @@ body {
 .app__header--img:hover {
   transform: scale(1.2);
 }
+.app__input {
+  margin-top: auto;
+  margin-bottom: 0.5rem;
+}
+.app__input__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app__input__text-box {
+  border: none;
+  width: 80%;
+  height: 3rem;
+  border-radius: 7.5px;
+  padding-left: 1rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  color: #495057;
+  font-family: "Open sans";
+}
+.app__input__text-box:focus {
+  outline: 1.5px solid #a5d8ff;
+}
+.app__input__button {
+  width: 3.75rem;
+  height: 3.75rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 0.15s box-shadow, 0.15s transform;
+}
+.app__input__button-svg {
+  width: 100%;
+  height: 100%;
+  color: #228be6;
+}
+.app__input__button:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.3) 0px 1px 3px 1px;
+}
+.app__input__button:active {
+  cursor: pointer;
+  transform: translateY(0);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
 
 /*# sourceMappingURL=style.css.map */
