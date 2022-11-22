@@ -74,6 +74,14 @@ body {
 .app__header--img:hover {
   transform: scale(1.2);
 }
+.app__unchecked {
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.app__checked {
+  padding: 0.5rem 1rem;
+}
 .app__input {
   margin-top: auto;
   margin-bottom: 0.5rem;
