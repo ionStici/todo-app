@@ -150,8 +150,7 @@ body {
   height: 1.4rem;
   margin-left: 1rem;
   border-radius: 50%;
-  outline: 1.45px solid #adb5bd;
-  border: 2.33px solid #fff;
+  border: 1.45px solid #adb5bd;
   cursor: pointer;
 }
 .app__item--text {
