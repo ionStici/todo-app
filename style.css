@@ -102,7 +102,8 @@ body {
   font-family: "Open sans";
 }
 .app__input__text-box:focus {
-  outline: 1.5px solid #a5d8ff;
+  outline: none;
+  box-shadow: #a5d8ff 0px 1px 2px 0px, #a5d8ff 0px 2px 6px 2px;
 }
 .app__input__button {
   width: 3.75rem;
