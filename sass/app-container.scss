@@ -218,3 +218,27 @@
         }
     }
 }
+
+.item-checked {
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.check-box-checked {
+    background-color: #74c0fc;
+    outline: 1.33px solid #adb5bd;
+}
+
+.text-checked {
+    font-weight: 300;
+    color: #adb5bd;
+}
+
+.edit-checked {
+    // color: #e7f5ff;
+}
+
+.overflow {
+    overflow: scroll;
+}
