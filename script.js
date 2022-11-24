@@ -15,6 +15,21 @@ class App {
     #html2 = "";
 
     constructor() {}
+
+    _inputFocus(e) {
+        e.preventDefault();
+
+        this.input.style.border = "";
+    }
+
+    _submit(e) {
+        e.preventDefault();
+
+        this.#uncheckedTodos.push(this.input.value);
+        this.input.value = "";
+
+        this._fillUnchecked();
+    }
 }
 
 const app = new App();
