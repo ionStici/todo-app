@@ -14,7 +14,10 @@ class App {
     #html = "";
     #html2 = "";
 
-    constructor() {}
+    constructor() {
+        this.form.addEventListener("submit", this._submit.bind(this));
+        this.button.addEventListener("click", this._submit.bind(this));
+    }
 
     _inputFocus(e) {
         e.preventDefault();
