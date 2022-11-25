@@ -165,8 +165,8 @@
 
         &--check-box {
             display: inline-block;
-            width: 1.4rem;
-            height: 1.4rem;
+            width: 1.5rem;
+            height: 1.5rem;
             margin-left: 1rem;
 
             border-radius: 50%;
@@ -184,7 +184,7 @@
             font-weight: 500;
             cursor: default;
 
-            width: 75%;
+            // width: 75%;
             white-space: nowrap;
         }
 
@@ -229,7 +229,10 @@
 
 .check-box-checked {
     background-color: #74c0fc;
-    outline: 1.33px solid #adb5bd;
+    border: 0.175rem solid #7498fc;
+    // outline: 1.33px solid #adb5bd;
+    width: 1.75rem;
+    height: 1.75rem;
 }
 
 .text-checked {

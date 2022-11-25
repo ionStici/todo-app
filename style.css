@@ -146,8 +146,8 @@ body {
 }
 .app__item--check-box {
   display: inline-block;
-  width: 1.4rem;
-  height: 1.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
   margin-left: 1rem;
   border-radius: 50%;
   border: 1.45px solid #adb5bd;
@@ -160,7 +160,6 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   cursor: default;
-  width: 75%;
   white-space: nowrap;
 }
 .app__item--edit {
@@ -192,7 +191,9 @@ body {
 
 .check-box-checked {
   background-color: #74c0fc;
-  outline: 1.33px solid #adb5bd;
+  border: 0.175rem solid #7498fc;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .text-checked {
