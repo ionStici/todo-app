@@ -104,6 +104,36 @@ class App {
             }, 1000 * 0.25);
         }
     }
+
+    _unchecked(e) {
+        if (
+            e.target ===
+                e.target
+                    .closest(".app__item")
+                    .querySelector(".app__item--text") ||
+            e.target === e.target.closest(".app__item") ||
+            e.target ===
+                e.target
+                    .closest(".app__item")
+                    .querySelector(".app__item--check-box")
+        ) {
+            const todo = e.target.closest(".app__item");
+
+            const index = todo.dataset.row;
+
+            const removed = this.#checkedTodos.splice(index, 1).join("");
+
+            this.#uncheckedTodos.unshift(removed);
+
+            // todo.style.transform = 'scale(0)';
+            todo.style.opacity = "0";
+
+            setTimeout(() => {
+                this._fillUnchecked();
+                this._fillChecked();
+            }, 1000 * 0.25);
+        }
+    }
 }
 
 const app = new App();
