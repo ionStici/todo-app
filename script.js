@@ -17,6 +17,18 @@ class App {
     constructor() {
         this.form.addEventListener("submit", this._submit.bind(this));
         this.button.addEventListener("click", this._submit.bind(this));
+
+        this.uncheckedContainer.addEventListener(
+            "click",
+            this._checked.bind(this)
+        );
+
+        this.checkedContainer.addEventListener(
+            "click",
+            this._unchecked.bind(this)
+        );
+
+        this.input.addEventListener("onfocus", this._inputFocus.bind(this));
     }
 
     _inputFocus(e) {
